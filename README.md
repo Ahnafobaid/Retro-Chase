@@ -44,27 +44,6 @@ Then visit <http://localhost:8000>.
 
 The best score is stored in `localStorage` under `retrochase.best`. Older builds used `neondrift.best`; that value is migrated automatically on first run.
 
-## Publish with GitHub Pages
-
-1. Create a new **public** repository on GitHub (no README, no `.gitignore`).
-2. From this folder:
-
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "Retro Chase"
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-
-3. In the repository: **Settings → Pages → Build and deployment**
-   - Source: **Deploy from a branch**
-   - Branch: **main**, folder **/ (root)**
-   - Save.
-4. The game goes live at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
-
-`index.html` is the entry point and `.nojekyll` is included so GitHub Pages serves the files as-is.
-
 ## Created by
 
 Ahnaf Obaid — built for fun, free to play and enjoy.
